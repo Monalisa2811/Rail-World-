@@ -1,0 +1,21 @@
+package Polymorphism;
+
+class Bike{
+	void run() {
+		System.out.println("It can run");
+	}
+}
+
+public class Splender extends Bike{
+	void run() {
+		System.out.println("Splender runs fast");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Bike b= new Splender();
+		b.run();
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package Array;
+
+public class Rotate_array_elements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

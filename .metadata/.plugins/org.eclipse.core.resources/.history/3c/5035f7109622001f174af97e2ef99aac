@@ -1,0 +1,10 @@
+package Array;
+
+public class Copy_Array1_To_Array2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

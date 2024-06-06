@@ -1,0 +1,18 @@
+package Array;
+
+import java.util.Scanner;
+
+public class Binary_Search {
+
+	public static void main(String[] args) {
+		Scanner scn=new Scanner(System.in);
+		System.out.print("Number of array element");
+		int n=scn.nextInt();
+		for(int i=0;i<n;i++) {
+			System.out.println();
+		}
+		
+
+	}
+
+}

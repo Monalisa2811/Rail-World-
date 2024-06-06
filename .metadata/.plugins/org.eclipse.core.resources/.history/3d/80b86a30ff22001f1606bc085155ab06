@@ -1,0 +1,29 @@
+package Inheritance;
+
+class Parent{
+	void punishment() {
+		System.out.println("Parent can punish");
+	}
+}
+
+class Girl1 extends Parent{
+	void g1() {
+		System.out.println("Simple girl ");
+	}
+}
+
+class Boy extends Parent{
+	void b1() {
+		System.out.println("Dangerious");
+	}
+}
+public class Hirchical_Inheritance {
+
+	public static void main(String[] args) {
+		Boy b=new Boy();
+		b.b1();
+		b.punishment();
+
+	}
+
+}
