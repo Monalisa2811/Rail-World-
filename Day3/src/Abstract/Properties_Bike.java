@@ -1,11 +1,11 @@
 package Abstract;
 
-abstract class Bike{
+abstract class Bike1{
 	abstract void run();
 	abstract int gear();
 }
 
-class Splender extends Bike{
+class Splender extends Bike1{
 	void run() {
 		System.out.println("It runs fast");
 	}
@@ -18,7 +18,7 @@ class Splender extends Bike{
 public class Properties_Bike {
 
 	public static void main(String[] args) {
-		Bike bi=new Splender();
+		Bike1 bi=new Splender();
 
 	}
 
